@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/startup/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/body/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/photo/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+
+	],
+	"tabBar": {
+		"borderStyle": "white",
+		"color": "#4D1F00",
+		"selectedColor": "#D2781F",
+		"spacing": "2px",
+		"height": "42px",
+		"list": [
+			{
+				"pagePath": "pages/message/index",
+				"text": "信息",
+				"iconPath": "/static/message-icon.png",
+				"selectedIconPath": "/static/message-selected-icon.png"
+			},
+			{
+				"pagePath": "pages/photo/index",
+				"text": "",
+				"iconPath": "/static/camera-icon.png",
+				"selectedIconPath": "/static/camera-icon.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "/static/my-selected-icon.png",
+				"selectedIconPath": "/static/my-icon.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

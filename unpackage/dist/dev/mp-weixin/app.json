@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/startup/index",
+    "pages/my/index",
+    "pages/message/index",
+    "pages/body/index",
+    "pages/photo/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#4D1F00",
+    "selectedColor": "#D2781F",
+    "list": [
+      {
+        "pagePath": "pages/message/index",
+        "text": "信息",
+        "iconPath": "/static/message-icon.png",
+        "selectedIconPath": "/static/message-selected-icon.png"
+      },
+      {
+        "pagePath": "pages/photo/index",
+        "text": "",
+        "iconPath": "/static/camera-icon.png",
+        "selectedIconPath": "/static/camera-icon.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "/static/my-selected-icon.png",
+        "selectedIconPath": "/static/my-icon.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
